@@ -43,6 +43,7 @@ app.get('/help',(req, res)=>{
         name : 'Hrithik Joshi'
     })
 })
+//dynamically feeding data
 
 app.get('/weather',(req, res)=>{
     if(!req.query.address){
